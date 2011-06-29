@@ -12,7 +12,7 @@ ZSH_THEME_GIT_TIME_SINCE_COMMIT_LONG="%{$fg[red]%}"
 ZSH_THEME_GIT_TIME_SINCE_COMMIT_NEUTRAL="%{$fg[cyan]%}"
 
 function current_dir() {
-    echo "λ~"
+    echo "λ%~"
 }
 
 function haskell_version() {
